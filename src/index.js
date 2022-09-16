@@ -20,6 +20,8 @@ import pI5 from './images/pI5.jpg'
 import pI6 from './images/pI6.jpg'
 import pI7 from './images/pI7.jpg'
 
+import fbLogo from './images/fb logo.png'
+
 import { TbThumbUp, TbGridDots } from "react-icons/tb";
 import { RiShareForwardLine, RiFacebookCircleFill, RiMessengerFill } from "react-icons/ri";
 import { VscComment, VscHome } from "react-icons/vsc";
@@ -39,7 +41,8 @@ let Nav = () => {
     <div className='navBar'>
       <div className='left'>
         <div>
-          <i className="facebookLogo leftLogo navLogo"><RiFacebookCircleFill /></i>
+          <img src={fbLogo} alt="" className='facebookLogo' />
+          {/* <i className="facebookLogo leftLogo navLogo"><RiFacebookCircleFill /></i> */}
         </div>
         <div className='inputDiv'>
           <label htmlFor="search">

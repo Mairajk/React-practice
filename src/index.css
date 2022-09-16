@@ -11,6 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+h1{
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 i{
   font-size: 0px;
@@ -111,6 +117,32 @@ i{
   justify-content: space-between;
   background-color: white;
   width: 100%;
+}
+
+.left{
+  display: flex;
+  justify-content: space-around;
+  /* width: 320px; */
+  /* flex-grow: 2 */
+}
+
+.left .facebookLogo{
+  width: 40px;
+  height: 40px;
+}
+
+.center{
+  display: flex;
+  justify-content: space-between;
+  /* width: 400px; */
+  flex-grow: 2; 
+}
+
+.right{
+  display: flex;
+  justify-content: space-between;
+  /* width: 200px; */
+  flex-grow: 0.5; 
 }
 
 .inputDiv input{

@@ -11,3 +11,154 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+i{
+  font-size: 0px;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+.post {
+  border: 2px solid black;
+  width: 400px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0px 0px 20px 5px black;
+  border-radius: 30px;
+  background-color: white;
+
+  /* height: 250px; */
+}
+
+.profilePhoto {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.postHead {
+  display: flex;
+  align-items: center;
+}
+
+.postHead>.nameDate {
+  margin: 0 20px;
+}
+
+.userName {
+  margin: 0px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.postDate {
+  margin: 0px;
+  font-size: 14px;
+  color: gray;
+}
+
+.postText {
+  margin: 20px 0px;
+}
+
+.postImage {
+  background: #000;
+  display: flex;
+  justify-content: center;
+}
+
+.postImage>img {
+  margin: 0px auto;
+  /* width: 90%; */
+  /* margin:; */
+}
+
+.postFooter {
+  color: #555;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+  border-top: 1px solid #555;
+  border-bottom: 1px solid #555;
+  padding: 10px 0px;
+}
+
+.postFooter>div{
+  display: flex;
+  /* align-items: center; */
+}
+
+.postFooter i{
+  display: flex;
+  align-items: flex-end;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.postFooter span{
+  margin: 3px;
+}
+
+.navBar{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  width: 100%;
+}
+
+.inputDiv input{
+  border: 0px solid black;
+  background-color: whitesmoke;
+  font-size: 15px;
+  padding: 7px 8px 9px;
+  width: 200px;
+}
+
+input:focus{
+  outline: none;
+}
+
+.inputDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  /* padding: 0px 0px 0px 10px; */
+  border-radius: 20px;
+  width: 240px;
+  height: 40px;
+}
+.inputDiv i{
+  font-size: 20px;
+  color: #777;
+  /* padding-left: 20px ; */
+}
+
+.navLogo{
+  font-size: 28px;
+ }
+
+.groupsLogo{
+  border: 2px solid #777 ;
+  border-radius: 50%;
+  font-size: 20px;
+  width: 22px;
+  height: 22px;
+  padding: 1px ;
+ /* text-align: center;  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #777;
+}
+
+.centerLogo{
+  color: #777;
+}

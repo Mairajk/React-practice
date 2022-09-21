@@ -1,0 +1,111 @@
+body {
+    background-color: red;
+}
+
+.roomLiteTheme {
+    /* background-color: red; */
+    color: white;
+    font-size: 20px;
+    /* background-color: ; */
+}
+
+.roomDarkTheme {
+    color: black;
+    font-size: 20px;
+    /* background-color: black; */
+}
+
+.toggleButtonLiteTheme {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.toggleButtonDarkTheme {
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* position : top 10px; */
+}
+
+.dark {
+    background-color: darkgrey;
+    color: black;
+}
+
+.dark .page {
+    background-color: black;
+}
+
+.dark .post {
+    background-color: rgb(45, 45, 45);
+    color: white;
+}
+
+.dark .post .postDate {
+    color: lightgrey;
+}
+
+.dark .postFooter div {
+    color: lightgrey;
+
+}
+
+.dark .postFooter {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid gray;
+}
+
+.dark .navBar {
+    background-color: rgb(45, 45, 45);
+}
+
+.dark .right>div {
+    background-color: black;
+    color: white;
+}
+
+.dark .leftSideBar>.leftSideBarItems {
+    color: white;
+}
+
+.dark .leftSideBar>.leftSideBarItems:hover {
+    background-color: rgb(45, 45, 45);
+    border-radius: 10px;
+}
+
+.dark .centerLogo {
+    color: lightgrey;
+}
+
+.dark .rightSideBarDivider {
+    background-color: rgb(45, 45, 45);
+}
+
+.dark .sponsoredItems .sponsoredDiscription {
+    color: white;
+}
+
+.dark .sponsoredItems .sponsoredLink {
+    color: grey;
+}
+
+.dark .sponsoredHead {
+    color: grey;
+}
+
+.dark .requestProfileName {
+    color: white;
+}
+
+.dark .friendReqDivHead h3 {
+    color: gray
+}
